@@ -5,6 +5,12 @@
   tasks:
 
 
+  - name: create simone user
+     tags: always
+        user:
+          - name: simone
+          - groups: root
+
 
  
   - name: install apache and php for Ubuntu servers
